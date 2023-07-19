@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Work+Sans:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    
     <title>Gamer</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -16,14 +18,14 @@
     <header id="header">
       <!-- nav bar started -->
       <nav id="nav-bar">
-        <div id="logo-container">
+        <div class="logo-container">
           <img src="./images/Frame.png" alt="this is logo" />
           <h3>Ga<span class="logo-text">m</span>er</h3>
         </div>
         <div class="menu">
           <li>About us</li>
           <li>Developers</li>
-          <li><button id="menu-btn">Follow us on</button></li>
+          <li><button id="menu-btn">Follow us on <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i></button></li>
         </div>
       </nav>
       <!-- nav bar end -->
@@ -98,19 +100,103 @@
       <!-- game show section started -->
       <section class="game-show">
         <div class="g-s-text-cont">
-            <h3><span class="g-s-pink-txt">Play Instantly,</span> <br>
-                No Downloads <br>
-                No Installs.</h3>
-            <p>Play games online for free without<br> downloading. Just click the Play button <br> and play instantly in your browser.</p>
+          <h3>
+            <span class="g-s-pink-txt">Play Instantly,</span> <br />
+            No Downloads <br />
+            No Installs.
+          </h3>
+          <p>
+            Play games online for free without<br />
+            downloading. Just click the Play button <br />
+            and play instantly in your browser.
+          </p>
         </div>
         <div class="g-s-img-cont">
-            <div class="g-s-main-img">
-                <div class="g-s-side-img">
-                </div>
-
+          <div class="g-s-main-img">
+            <div class="g-s-side-img"></div>
+          </div>
+        </div>
+      </section>
+      <!-- game show section end -->
+      <!-- career section started -->
+      <section class="career">
+        <div class="career-text">
+          <h3 style="font-size: 2em">Careers</h3>
+          <p>
+            Gamer is driven to create the best and most fun games for our
+            millions of <br />
+            players all around the world, and we,re always on the lookout for
+            more top <br />
+            talent to join our growing team. If you,d like to help us make great
+            games <br />
+            and be a part of Gamers bright future, we,d love to hear from you.
+          </p>
+          <div class="career-options">
+            <div>
+              <li>Multimedia Artist +</li>
+              <li>Data Engineer+</li>
+              <li>Adroid Engineer +</li>
+              <li>Server Developer +</li>
+              <li>Group Financial Accountant +</li>
+              <li>Senior User Acuisition Specialist+</li>
             </div>
+            <div>
+              <li>Lisbon, Portugal</li>
+              <li>Lisbon, Portugal</li>
+              <li>Zoetermeer, Netherlands</li>
+              <li>Lisbon, Portugal</li>
+              <li>London, United Kingdom</li>
+              <li>Lisbon, Portugal</li>
+            </div>
+          </div>
+          <button class="career-btn">See all positions</button>
+        </div>
+        <div class="career-img"></div>
+      </section>
+      <!-- button section -->
+      <section class="btn-container">
+        <div class="btn-grp1">
+          <button class="btn">Action Games</button>
+          <button class="btn">Adventure Games</button>
+          <button class="btn">Arcade Games</button>
+          <button class="btn">Educational Games</button>
+          <button class="btn">Word Games</button>
+        </div>
+        <div class="btn-grp2">
+          <button class="btn">Role Palying Games</button>
+          <button class="btn">Audio Games</button>
+          <button class="btn">Puzzle Games</button>
+          <button class="btn">Strategy Games</button>
         </div>
       </section>
     </main>
+    <footer class="footer">
+        <div class="logo-container footer-logo-cont">
+            <img src="./images/Frame.png" alt="this is logo" />
+            <h3 class="footer-logo">Ga<span class="logo-text">m</span>er</h3>
+        </div>
+        <div class="footer-options">
+            <li>Our Story</li>
+            <li>Games</li>
+            <li>Web Games</li>
+            <li>Careers</li>
+            <li>Support</li>
+            <li>My Account</li>
+        </div>
+        <div class="footer-icon-cont">
+            <i class="fa-brands fa-twitter icons" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook icons" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube icons" style="color: #ffffff;"></i>
+             
+        </div>
+        <div class="terms-condition">
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>Privacy Settings</li>
+        </div>
+        <p class="credit">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+
+    </footer>
   </body>
 </html>

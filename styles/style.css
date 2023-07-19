@@ -14,18 +14,18 @@
 
 }
 
-#logo-container {
+.logo-container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#logo-container>img {
+.logo-container>img {
     width: 80px;
     height: 35px;
 }
 
-#logo-container h3 {
+.logo-container h3 {
     font-size: 45px;
 }
 
@@ -270,4 +270,112 @@ background-clip: text;
 
 
  
+}
+/* careeer section started */
+.career{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF42A5;
+    margin-top: 90px;
+    color:#FFF ;
+    padding-left: 200px;
+}
+.career-texts{
+    text-align: left;
+}
+.career-options li{
+    list-style: none;
+
+}
+.career-options{
+    display: flex;
+    gap: 50px;
+
+}
+.career-img{
+    height: 500px;
+    width: 625px;
+    background-image: url(/images/Group65.png);
+    background-size: cover;
+}
+.career-btn{
+    font-size: .9em;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-top: 20px;
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 48px;
+background: #FFF;
+}
+/* btn section */
+.btn-grp1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left:50px ;
+    margin-top:50px ;
+    align-content: center;
+}
+.btn-grp2{
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+margin-top: 20px;
+    padding-left: 200px;
+}
+.btn{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 50px;
+background: #FFF;
+}
+.footer{
+    margin-top: 30px;
+    background-color:#0B0223;
+    width:100% ;
+    height: 400px;
+}
+.footer-logo{
+    color: #FFF;
+}
+.footer-logo-cont{
+  display: flex;
+  justify-content: center;
+}
+.footer-options{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 325px;
+    padding-right: 325px;
+
+}
+.footer-options li{
+    color: #FFF;
+    list-style: none;
+}
+.footer-icon-cont{
+    text-align: center;
+    padding-right:;
+}
+.icons{
+    font-size: 2em;
+    padding-left:30px ;
+    margin-top: 30px;
+}
+.terms-condition {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.terms-condition li{
+    color: rgba(255, 255, 255,0.6);
+    list-style: none;
+}
+.credit{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255,0.6);
 }
