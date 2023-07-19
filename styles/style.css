@@ -132,8 +132,9 @@
 }
 
 .w-a-g-img img {
-    width: 42rem;
-    height: 25rem;
+    width: 35rem;
+    height: 23rem;
+
 }
 
 .w-a-g-title {
@@ -145,16 +146,128 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.w-a-g-para{
+
+.w-a-g-para {
     color: #534C64;
-text-align: right;
-font-size: 1.1em;
-font-weight: 400;
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: 400;
 }
-.w-a-g-btn{
-    display:flex;
+
+.w-a-g-btn {
+    display: flex;
     justify-content: right;
 }
-.w-a-g-btn1{
+
+.w-a-g-btn1 {
     width: 9rem;
+}
+
+/* we are gamer section styles ended */
+/* online games section started */
+.online-games>p
+ {
+    text-align: center;
+}
+.online-games>h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+.o-g-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.cart-cont{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart{
+    width: 200px;
+    height: 250px;
+    border-radius: 16px;
+}
+.cart1{
+    background-image: url(/images/Rectangle4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart2{
+    background-image: url(/images/Rectangle5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart3{
+    background-image: url(/images/Rectangle6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart4{
+    background-image: url(/images/Rectangle7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart-description {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cart-description p{
+    text-align: left;
+    font-size: small;
+    padding-left: 20px;
+    margin-top: 15px;
+
+}
+/* online games end */
+/* game show section started */
+.game-show{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.g-s-text-cont>h3{
+    text-align: left;
+    font-size: 2em;
+}
+.g-s-pink-txt{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.g-s-main-img{
+    height: 450px;
+    width: 400px;
+    background-image: url(/images/Rectangle55.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.g-s-side-img{
+    height: 250px;
+    width: 200px;
+}
+.g-s-side-img{
+    background-image: url(/images/Rectangle67.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 250px;
+    right: 100px;
+    border: 5px solid #FFF;
+    border-radius: 8px;
+
+
+ 
 }
