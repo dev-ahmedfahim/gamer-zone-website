@@ -192,25 +192,33 @@
     border-radius: 16px;
 }
 .cart1{
-    background-image: url(/images/Rectangle4.png);
+    background-image: url(../images/Rectangle4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .cart2{
-    background-image: url(/images/Rectangle5.png);
+    background-image: url(../images/Rectangle5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .cart3{
-    background-image: url(/images/Rectangle6.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Rectangle6.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cart3:hover{
+    background-color: rgba(11, 2, 35, 0.524);
+    background-blend-mode: multiply;
+    
+}
 .cart4{
-    background-image: url(/images/Rectangle7.png);
+    background-image: url(../images/Rectangle7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,7 +257,7 @@ background-clip: text;
 .g-s-main-img{
     height: 450px;
     width: 400px;
-    background-image: url(/images/Rectangle55.png);
+    background-image: url(../images/Rectangle55.png);
     background-position: center;
     background-size: cover;
     border-radius: 8px;
@@ -259,7 +267,7 @@ background-clip: text;
     width: 200px;
 }
 .g-s-side-img{
-    background-image: url(/images/Rectangle67.png);
+    background-image: url(../images/Rectangle67.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -296,7 +304,7 @@ background-clip: text;
 .career-img{
     height: 500px;
     width: 625px;
-    background-image: url(/images/Group65.png);
+    background-image: url(../images/Group65.png);
     background-size: cover;
 }
 .career-btn{
@@ -326,11 +334,81 @@ margin-top: 20px;
     padding-left: 200px;
 }
 .btn{
-    width: 9rem;
-    height: 3rem;
+    border: none;
+    width: 10rem;
+    height: 4rem;
     border-radius: 50px;
 background: #FFF;
+text-align: center;
 }
+.btn:hover{
+    border:2px solid #FF42A5;
+    color: rgba(255, 66, 164, 0.9);
+}
+.btn1{
+    width:10rem;
+    background-image: url(../images/Rectangle11.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 40px;
+}
+.btn2{
+    width:13rem;
+    background-image: url(../images/Rectangle12.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn3{
+    width:13rem;
+    background-image: url(../images/Rectangle13.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn4{
+    width:13rem;
+    background-image: url(../images/Rectangle14.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn5{
+    width:13rem;
+    background-image: url(../images/Rectangle15.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn6{
+    width:13rem;
+    background-image: url(../images/Rectangle16.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn7{
+    width:13rem;
+    background-image: url(../images/Rectangle17.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn8{
+    width:13rem;
+    background-image: url(../images/Rectangle18.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+.btn9{
+    width:13rem;
+    background-image: url(../images/Rectangle19.png);
+    background-repeat: no-repeat;
+    background-position:14px;
+    background-size: 40px;
+}
+/* footer section started */
 .footer{
     margin-top: 30px;
     background-color:#0B0223;
