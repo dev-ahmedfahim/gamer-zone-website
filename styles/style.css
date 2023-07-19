@@ -1,5 +1,9 @@
 * {
     font-family: 'Work Sans';
+
+}
+.hiden{
+    display: none;
 }
 
 #nav-bar {
@@ -108,7 +112,6 @@
     color: #FFF;
     border: none;
     border-radius: 48px;
-    height: ;
     background-color: #FF42A5;
 }
 
@@ -213,6 +216,7 @@
     background-size: cover;
 }
 .cart3:hover{
+    border: 2px solid #FF42A5;
     background-color: rgba(11, 2, 35, 0.524);
     background-blend-mode: multiply;
     
@@ -435,7 +439,6 @@ text-align: center;
 }
 .footer-icon-cont{
     text-align: center;
-    padding-right:;
 }
 .icons{
     font-size: 2em;
@@ -456,4 +459,8 @@ text-align: center;
     margin-top: 20px;
     text-align: center;
     color: rgba(255, 255, 255,0.6);
+}
+/* footer section end */
+@media (max-width:768px){
+
 }
